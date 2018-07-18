@@ -7,22 +7,10 @@ Created on Thu Aug  3 12:31:51 2017
 
 # import the necessary packages
 from skimage.measure import compare_ssim
-#import argparse
 import imutils
 import cv2
  
-# construct the argument parse and parse the arguments
-#ap = argparse.ArgumentParser()
-#ap.add_argument("-f", "--first", required=True,
-#	help="first input image")
-#ap.add_argument("-s", "--second", required=True,
-#	help="second")
-#args = vars(ap.parse_args())
-
-# load the two input images
-#imageA = cv2.imread(args["first"])
-#imageB = cv2.imread(args["second"])
-
+	
 imageA = cv2.imread("all_white_roi.png",0)
 imageB = cv2.imread("white1px_roi.png",0) 
 
