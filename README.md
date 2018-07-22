@@ -1,5 +1,4 @@
 # opencv-tools
-modules for camera image aquisition/processing used to analyze LS027B7DH01LCD LCD screens
+modules for camera image acquisition/processing used to analyze LS027B7DH01LCD LCD screens
 
-a collecition of convenience functions/scripts heavily influenced by examples from pyimagesearch:https://www.pyimagesearch.com/
-
+a collection of convenience functions/scripts heavily influenced by examples from pyimagesearch:https://www.pyimagesearch.com/
